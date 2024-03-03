@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Aplicación de gestión de alumnos con React
+Aplicación web construida usando React.js y bootstrap que consume(con axios) mi propia API de Springboot que muestra los datos provenientes de una base de datos local MySQL.
+El repositorio del backend está alojado aquí https://github.com/Isrfag/Students-Management-Sys-Backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnología y dependencias usadas:
+1. React.js junto a webpack
+2. Bootstrap 5.2
+3. React-router-dom
+4. Axios
+5. React-icons
 
-## Available Scripts
+## Características de la aplicación.
+- Muestra dinámica de los estudiantes alojados en la base de datos
+- Barra de búsqueda para encontrar a un solo estudiante por su nombre
+- Edición de las características de cualquier alumno
+- Borrado de alumnos.
+- Vista al perfil detallado de cualquier alumno.
+- Renderización de React(sin recargar).
 
-In the project directory, you can run:
+### Actividad realizada por Israel Fernandez Agudo
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## -- English version:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Frontend Students Management React App
+A React.js web application created with bootstrap (adn react icons) that rests(uses axios library) my own Springboot API. It shows data from a local MySQL database.
+Backend repository can be found here https://github.com/Isrfag/Students-Management-Sys-Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech and dependencies used:
+1. React.js alongside webpack
+2. Bootstrap 5.2
+3. React-router-dom
+4. Axios
+5. React-icons
 
-### `npm run build`
+## App Features:
+- Dynamic show of the students hosted in the database.
+- Search bar to find a single student by name.
+- Update any student property.
+- Delete any student.
+- Detailed view to the profile of any student.
+- Dynamic React rendering.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Activity made by Israel Fernandez Agudo
